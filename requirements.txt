@@ -1,0 +1,8 @@
+streamlit
+numpy
+plotly
+pandas
+openpyxl
+streamlit-plotly-events
+scikit-learn
+colorlover
