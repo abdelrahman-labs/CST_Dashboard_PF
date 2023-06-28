@@ -8,7 +8,7 @@ import numpy as np
 import colorlover as cl
 import plotly.colors as pc
 
-st.set_page_config(page_title="JT_Customers", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="Express_Customers", page_icon=":bar_chart:", layout="wide")
 
 
 @st.cache_data()
