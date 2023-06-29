@@ -10,6 +10,12 @@ import plotly.colors as pc
 
 st.set_page_config(page_title="Express_Customers", page_icon=":bar_chart:", layout="wide")
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 @st.cache_data()
 def load_excel_files(directory):
